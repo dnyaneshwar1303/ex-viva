@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="Name"></label>
+    <input type="text" id="Name" placeholder="Enter your name">
+
+    <button onclick="showAlert()">sumbmit</button>
+
+    <script>
+        function showAlert(){
+            const name=document.getElementById("Name").value;
+            alert("name : " + name);
+        }
+    </script>
+
+
+</body>
+</html>
