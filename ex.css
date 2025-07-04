@@ -1,0 +1,26 @@
+#root{
+    background-color: lightcoral;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: black;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+#name{
+    color: blueviolet;
+}
+#email{
+    color: blueviolet;
+}
+
+#age{
+    color: blueviolet;
+}
+
+#gender{
+    color: blueviolet;
+}
